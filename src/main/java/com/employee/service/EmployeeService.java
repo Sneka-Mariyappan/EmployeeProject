@@ -27,7 +27,7 @@ public class EmployeeService {
 			 
 	}
 		else {
-		throw new SalaryNotValidException("no value passed");
+		throw new SalaryNotValidException("no value ");
 		
 			
 		
@@ -39,6 +39,5 @@ public class EmployeeService {
 	public EmployeeEntity getValueById(int y) throws IdNotFoundException {
 		// TODO Auto-generated method stub
 		return ed.getValueById(y);
-	}
-
+	} 
 }

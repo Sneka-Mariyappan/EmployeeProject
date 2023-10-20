@@ -18,6 +18,7 @@ public class EmployeeEntity {
 	private String gender;
 	private int salary;
 	private String shift;
+	private int pf;
 	public int getId() {
 		return id;
 	}
