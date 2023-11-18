@@ -6,4 +6,6 @@ import com.employee.entity.EmployeeEntity;
 
 public interface EmployeeRepository extends  JpaRepository<EmployeeEntity, Integer>{
 
+	
+
 }

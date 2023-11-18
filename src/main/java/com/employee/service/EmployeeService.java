@@ -35,9 +35,7 @@ public class EmployeeService {
 			
 		}
 
+
 	
-	public EmployeeEntity getValueById(int y) throws IdNotFoundException {
-		// TODO Auto-generated method stub
-		return ed.getValueById(y);
-	} 
+	 
 }
